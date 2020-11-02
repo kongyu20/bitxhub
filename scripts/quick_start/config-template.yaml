@@ -44,9 +44,9 @@ client:
     #[Optional]. Client key and cert for TLS handshake with peers and orderers
     client:
       key:
-        path: ${CONFIG_PATH}/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/tls/server.key
+        path: ${CONFIG_PATH}/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/tls/client.key
       cert:
-        path: ${CONFIG_PATH}/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/tls/server.crt
+        path: ${CONFIG_PATH}/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/tls/client.crt
 
 #
 # [Optional]. But most apps would have this section so that channel objects can be constructed
